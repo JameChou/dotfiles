@@ -12,4 +12,14 @@
 4. [ivim](https://github.com/kepbod/ivim)
 
 ### 安装(只提供了Linux和osx的shell，如果使用Windows请参考上面的链接)
-运行install.sh
+#### curl
+
+```shell
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/JameChou/jc-vim/master/install.sh)"
+```
+
+#### wget
+
+```shell
+sh -c "$(wget https://raw.githubusercontent.com/JameChou/jc-vim/master/install.sh -O -)"
+```
