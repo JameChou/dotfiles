@@ -4,6 +4,7 @@
 	syntax enable
 	syntax on
 	set number
+    set relativenumber
 	"set helplang=en
 	set helplang=cn
     "set vim remember line
