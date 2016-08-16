@@ -23,10 +23,10 @@
 	colorscheme desert
 
     "map the shortcut key for change window size
-    nmap w= :resize +3<CR>
-    nmap w- :resize -3<CR>
-    nmap w, :vertical resize -3<CR>
-    nmap w. :vertical resize +3<CR>
+    "nmap <leader>w= :resize +3<CR>
+    "nmap <leader>w- :resize -3<CR>
+    "nmap <leader>w, :vertical resize -3<CR>
+    "nmap <leader>w. :vertical resize +3<CR>
 "}
 
 "Bundle {
@@ -80,3 +80,8 @@ filetype plugin indent on
     let g:ctrlp_map = '<c-p>'
     let g:ctrlp_cmd = 'CtrlP'
 "}
+
+"You complete me {
+
+"}
+

@@ -25,5 +25,17 @@ echo "安装完成后，会自动退出!" >> log
 echo "Please wait!" >> log
 vim log -c "BundleInstall" -c "q" -c "q"
 rm -f log
+cd ~/.vim/bundle/YouCompleteMe
+if which apt-get >/dev/null; then
+    sudo apt-get install cmake
+elif which yum >/dev/null; then
+    sudo yum install cmake
+fi
+
+if whic brew >/dev/null; then
+    brew install cmake
+fi
+sh ./install.sh --clang-complete
+cd ~
 echo "安装并配置完成，请愉快的编码吧~ :)"
 
