@@ -3,13 +3,13 @@
 echo "正在安装配置Vim请稍候~"
 
 if which apt-get >/dev/null; then
-    sudo apt-get install -y vim vim-gnome git
+    sudo apt-get install -y vim vim-gnome git tmux cmake
 elif which yum >/dev/null; then
-    sudo yum install -y vim git
+    sudo yum install -y vim git tmux cmake
 fi
 
 if which brew >/dev/null; then
-    brew install vim git
+    brew install vim git tmux
 fi
 
 cp ~/.vimrc ~/.vimrc.bak
@@ -26,16 +26,12 @@ echo "Please wait!" >> log
 vim log -c "BundleInstall" -c "q" -c "q"
 rm -f log
 cd ~/.vim/bundle/YouCompleteMe
-if which apt-get >/dev/null; then
-    sudo apt-get install cmake
-elif which yum >/dev/null; then
-    sudo yum install cmake
-fi
-
-if whic brew >/dev/null; then
-    brew install cmake
-fi
 sh ./install.sh --clang-complete
 cd ~
+echo "开始配置tmux"
+mv ~/.tmux.conf ~/.tmux.conf.bak
+mv ~/.tmux.conf.local ~/.tmux.conf.local.bak
+cp ~/jc-vim/tmux.conf ~/.tmux.conf
+cp ~/jc-vim/tmux.conf.local ~/.tmux.conf.local
 echo "安装并配置完成，请愉快的编码吧~ :)"
 
