@@ -2,7 +2,7 @@
 "General Setting {
 	set background=dark
 	syntax enable
-    colorscheme solarized
+    "colorscheme solarized
 	syntax on
 	set number
     set relativenumber
