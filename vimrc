@@ -20,7 +20,7 @@
 	set expandtab
 	set shiftwidth=4
 	
-	colorscheme desert
+	"colorscheme desert
 
     "map the shortcut key for change window size
     "nmap <leader>w= :resize +3<CR>
