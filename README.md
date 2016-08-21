@@ -23,3 +23,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/JameChou/jc-vim/master/ins
 ```shell
 sh -c "$(wget https://raw.githubusercontent.com/JameChou/jc-vim/master/install.sh -O -)"
 ```
+
+## tmux配置说明
+1. 重新绑定了prefix <C a>。
+2. pane之间的切换使用prefix + (vim 上下左右)的方式。
+3. 在session中可以使用prefix + ?的方式查看其他快捷键。
+
+## 效果图
+![screenshot](./screenshot.png)
