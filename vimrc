@@ -1,5 +1,6 @@
 "James Chow vim setting profile
 "General Setting {
+    let mapleader=','
 	set background=dark
 	syntax enable
     "colorscheme solarized
@@ -20,13 +21,11 @@
 	set expandtab
 	set shiftwidth=4
 	
-	"colorscheme desert
-
     "map the shortcut key for change window size
-    "nmap <leader>w= :resize +3<CR>
-    "nmap <leader>w- :resize -3<CR>
-    "nmap <leader>w, :vertical resize -3<CR>
-    "nmap <leader>w. :vertical resize +3<CR>
+    nmap <leader>1 :resize +10<CR>
+    nmap <leader>2 :resize -10<CR>
+    nmap <leader>3 :vertical resize -10<CR>
+    nmap <leader>4 :vertical resize +10<CR>
 "}
 
 "Bundle {
@@ -41,8 +40,6 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
 Bundle 'uguu-org/vim-matrix-screensaver'
-"Bundle 'Raimondi/delimitMate'
-"Bundle 'carlhuda/janus'
 Bundle 'jiangmiao/auto-pairs'
 Bundle 'kien/ctrlp.vim'
 Bundle 'vim-airline/vim-airline'
@@ -82,6 +79,9 @@ filetype plugin indent on
 "}
 
 "You complete me {
-
+    nnoremap <leader>gl :YcmCompleter GoToDeclaration<CR>
+    nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>
+    nnoremap <leader>gg :YcmCompleter GoToDefinitionElseDeclaration<CR>
+    nmap <F4> :YcmDiags<CR>
 "}
 
