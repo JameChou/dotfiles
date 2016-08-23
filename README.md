@@ -11,6 +11,18 @@
 3. [do-vimrc](https://github.com/humiaozuzu/dot-vimrc)
 4. [ivim](https://github.com/kepbod/ivim)
 
+### 插件列表
+* vundle
+* vim-fugitive
+* nerdtree
+* syntastic
+* auto-pairs
+* vim-airline
+* YouCompleteMe
+
+### 绑定快捷键
+* resize +10 -> `<leader>1`, resize -10 `<leader>2`, vertical resize -10 `<leader>3`, vertical resize +10 `<leader>4`
+
 ### 安装(只提供了Linux和osx的shell，如果使用Windows请参考上面的链接)
 #### curl
 
@@ -25,7 +37,7 @@ sh -c "$(wget https://raw.githubusercontent.com/JameChou/jc-vim/master/install.s
 ```
 
 ## tmux配置说明
-1. 重新绑定了prefix <C a>。
+1. 重新绑定了prefix <C-a>。
 2. pane之间的切换使用prefix + (vim 上下左右)的方式。
 3. 在session中可以使用prefix + ?的方式查看其他快捷键。
 
