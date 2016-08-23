@@ -12,16 +12,18 @@
 4. [ivim](https://github.com/kepbod/ivim)
 
 ### 插件列表
-* vundle
-* vim-fugitive
-* nerdtree
-* syntastic
-* auto-pairs
-* vim-airline
-* YouCompleteMe
+* [vundle](https://github.com/VundleVim/Vundle.vim)
+* [vim-fugitive](https://github.com/tpope/vim-fugitive)
+* [nerdtree](https://github.com/scrooloose/nerdtree)
+* [syntastic](https://github.com/scrooloose/syntastic)
+* [auto-pairs](https://github.com/jiangmiao/auto-pairs)
+* [vim-airline](https://github.com/vim-airline/vim-airline)
+* [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
+* [vim-surround](https://github.com/tpope/vim-surround)
 
 ### 绑定快捷键
-* resize +10 -> `<leader>1`, resize -10 `<leader>2`, vertical resize -10 `<leader>3`, vertical resize +10 `<leader>4`
+* resize +10 `<leader>1`, resize -10 `<leader>2`, vertical resize -10 `<leader>3`, vertical resize +10 `<leader>4`
+* 分屏之后不同之间互相移动，上移`<leader>w`,下移`<leader>s`,左移`<leader>a`,右移`<leader>d`
 
 ### 安装(只提供了Linux和osx的shell，如果使用Windows请参考上面的链接)
 #### curl
