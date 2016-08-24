@@ -20,7 +20,7 @@ Idea。而我的开发环境只有OSX和Linux两种，对于Windows上的Vim配�
 * [vim-airline](https://github.com/vim-airline/vim-airline)
 * [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
 * [vim-surround](https://github.com/tpope/vim-surround)
-* [honza/vim-snippets](https://github.com/honza/vim-snippets)
+* [vim-snippets](https://github.com/honza/vim-snippets)
 
 ### 绑定快捷键
 * resize +10 `<leader>1`, resize -10 `<leader>2`, vertical resize -10 `<leader>3`, vertical resize +10 `<leader>4`
