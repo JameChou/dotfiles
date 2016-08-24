@@ -1,8 +1,8 @@
 ## Vim配置文件
 
 ### 概述
-此配置简单，并没有整合过多的插件，因为平时的开发中，我还是主要使用IDE。现在主流的IDE一般都有Vim模式插件。
-当然Vim也可以通过配置而变的强大，甚至媲美IDE。但是面对类似于Java等语言开发项目时，还是难以应付的。
+这个vim配置是根据我的习惯而配置的，并不是一定适合所有人，平时也就是做前端相关开发才会使用到Vim，而Java开发我是使用
+Idea。而我的开发环境只有OSX和Linux两种，对于Windows上的Vim配置我并不熟悉，此配置也没有提供相关的安装脚本。
 
 想配置强大的Vim请移步下面的链接:
 
@@ -40,7 +40,7 @@ sh -c "$(wget https://raw.githubusercontent.com/JameChou/jc-vim/master/install.s
 ```
 
 ## tmux配置说明
-1. 重新绑定了prefix <C-a>。
+1. 重新绑定了prefix &lt;C-a&gt;。
 2. pane之间的切换使用prefix + (vim 上下左右)的方式。
 3. 在session中可以使用prefix + ?的方式查看其他快捷键。
 
