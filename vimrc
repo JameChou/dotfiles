@@ -26,6 +26,12 @@
     nmap <leader>2 :resize -10<CR>
     nmap <leader>3 :vertical resize -10<CR>
     nmap <leader>4 :vertical resize +10<CR>
+
+    "switch between different panes
+    nmap <leader>w <C-W>k
+    nmap <leader>s <C-W>j
+    nmap <leader>a <C-W>h
+    nmap <leader>d <C-W>l
 "}
 
 "Bundle {
@@ -33,7 +39,6 @@
     set rtp+=~/.vim/bundle/vundle
     call vundle#rc()
 "}
-
 
 Bundle 'gmarik/vundle'
 Bundle 'tpope/vim-fugitive'
@@ -44,6 +49,8 @@ Bundle 'jiangmiao/auto-pairs'
 Bundle 'kien/ctrlp.vim'
 Bundle 'vim-airline/vim-airline'
 Bundle 'Valloric/YouCompleteMe'
+Bundle 'tpope/vim-surround'
+Bundle 'honza/vim-snippets'
 
 filetype plugin indent on
 
