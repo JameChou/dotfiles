@@ -3,7 +3,10 @@
     let mapleader=','
 	set background=dark
 	syntax enable
-    "colorscheme solarized
+    colorscheme solarized
+    let g:solarized_visibility = "high"
+    let g:solarized_contrast = "high"
+    "let g:solarized_termcolors = 256
 	syntax on
 	set number
     set relativenumber
@@ -20,6 +23,8 @@
 	set tabstop=4
 	set expandtab
 	set shiftwidth=4
+    set nocompatible
+    set backspace=indent,eol,start
 	
     "map the shortcut key for change window size
     nmap <leader>1 :resize +10<CR>
@@ -51,6 +56,8 @@ Bundle 'vim-airline/vim-airline'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'tpope/vim-surround'
 Bundle 'honza/vim-snippets'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'altercation/vim-colors-solarized'
 
 filetype plugin indent on
 
