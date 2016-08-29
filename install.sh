@@ -19,7 +19,9 @@ mv -f ~/.vim ~/.vim_old
 mv -f ~/.vimrc ~/.vimrc_old
 mv -f ~/jc-vim/vimrc ~/.vimrc
 mkdir ~/.vim
-git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+cp -R ~/jc-vim/bundle ~/.vim
+cp -R ~/jc-vim/colors ~/.vim 
+#git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 echo "正在安装相关插件，可能会花费几分钟的时间请稍候~" >> log
 echo "安装完成后，会自动退出!" >> log
 echo "Please wait!" >> log
