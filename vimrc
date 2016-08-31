@@ -53,6 +53,7 @@ Bundle 'uguu-org/vim-matrix-screensaver'
 Bundle 'jiangmiao/auto-pairs'
 Bundle 'kien/ctrlp.vim'
 Bundle 'vim-airline/vim-airline'
+Bundle 'vim-airline/vim-airline-themes'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'tpope/vim-surround'
 Bundle 'honza/vim-snippets'
@@ -104,5 +105,9 @@ filetype plugin indent on
     nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>
     nnoremap <leader>gg :YcmCompleter GoToDefinitionElseDeclaration<CR>
     nmap <F4> :YcmDiags<CR>
+"}
+
+"airline {
+    let g:airline_theme='powerlineish'
 "}
 
