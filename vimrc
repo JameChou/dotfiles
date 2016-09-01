@@ -25,6 +25,8 @@
 	set shiftwidth=4
     set nocompatible
     set backspace=indent,eol,start
+    set hlsearch
+    set cursorline
 	
     "map the shortcut key for change window size
     nmap <leader>1 :resize +10<CR>
@@ -37,6 +39,8 @@
     nmap <leader>s <C-W>j
     nmap <leader>a <C-W>h
     nmap <leader>d <C-W>l
+
+    map <leader>nw :tabnew<CR>
 "}
 
 "Bundle {
