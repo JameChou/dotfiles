@@ -42,7 +42,7 @@
     nmap <leader>a <C-W>h
     nmap <leader>d <C-W>l
 
-    nmap <leader>nw :tabnew<CR>
+    nmap <leader>nt :tabnew<CR>
     nmap <leader>i :nohl<CR>
 "}
 
