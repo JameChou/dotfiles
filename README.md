@@ -29,13 +29,13 @@ Idea。而我的开发环境只有OSX和Linux两种，对于Windows上的Vim配�
 ### 安装(只提供了Linux和osx的shell，如果使用Windows请参考上面的链接)
 #### curl
 
-```shell
+```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/JameChou/jc-vim/master/install.sh)"
 ```
 
 #### wget
 
-```shell
+```bash
 sh -c "$(wget https://raw.githubusercontent.com/JameChou/jc-vim/master/install.sh -O -)"
 ```
 
@@ -44,5 +44,14 @@ sh -c "$(wget https://raw.githubusercontent.com/JameChou/jc-vim/master/install.s
 2. pane之间的切换使用prefix + (vim 上下左右)的方式。
 3. 在session中可以使用prefix + ?的方式查看其他快捷键。
 
-## 效果图
+#### 效果图
 ![screenshot](./screenshot.png)
+
+## ArchLinux 初始化安装文件
+```bash
+sh init_archlinux_env.sh
+```
+
+此脚本会自动化配置我的ArchLinux环境。
+1. 安装xterm、gnome、gdm、i3wm
+2. 配置i3wm管理器。

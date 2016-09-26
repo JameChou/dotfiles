@@ -20,8 +20,8 @@ mv -f ~/.vimrc ~/.vimrc_old
 mv -f ~/jc-vim/vimrc ~/.vimrc
 mkdir ~/.vim
 cp -R ~/jc-vim/bundle ~/.vim
-cp -R ~/jc-vim/colors ~/.vim 
-#git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+cp -R ~/jc-vim/colors ~/.vim
+git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 echo "正在安装相关插件，可能会花费几分钟的时间请稍候~" >> log
 echo "安装完成后，会自动退出!" >> log
 echo "Please wait!" >> log
@@ -36,4 +36,3 @@ mv ~/.tmux.conf.local ~/.tmux.conf.local.bak
 cp ~/jc-vim/tmux.conf ~/.tmux.conf
 cp ~/jc-vim/tmux.conf.local ~/.tmux.conf.local
 echo "安装并配置完成，请愉快的编码吧~ :)"
-
