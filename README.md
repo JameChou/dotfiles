@@ -49,9 +49,13 @@ sh -c "$(wget https://raw.githubusercontent.com/JameChou/jc-vim/master/install.s
 
 ## ArchLinux 初始化安装文件
 ```bash
-sh init_archlinux_env.sh
+sh archlinux.sh
 ```
 
 此脚本会自动化配置我的ArchLinux环境。
+
 1. 安装xterm、gnome、gdm、i3wm
 2. 配置i3wm管理器。
+
+## idea Intellij 配置文件
+setting.jar 是常用的intellij配置文件，重装或者换环境后，File -> Import Setting 导入自己的配置信息。
