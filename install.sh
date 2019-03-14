@@ -36,3 +36,20 @@ mv ~/.tmux.conf.local ~/.tmux.conf.local.bak
 cp ~/dotfiles/tmux.conf ~/.tmux.conf
 cp ~/dotfiles/tmux.conf.local ~/.tmux.conf.local
 echo "安装并配置完成，请愉快的编码吧~ :)"
+
+echo "安装以及配置Nodejs和NVM"
+cd ~
+curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh -o install_nvm.sh
+sudo chmod 755 install_nvm.sh
+./install_nvm.sh
+source ~/.profile
+source ~/.zshrc
+source ~/.bashrc
+nvm install 8.11.1
+nvm use 8.11.1
+node -v
+cp ~/dotfiles/npmrc ~/.npmrc
+
+echo "安装Hexo以及Gitbook环境"
+npm install -g hexo-cli
+npm install -g gitbook-cli
